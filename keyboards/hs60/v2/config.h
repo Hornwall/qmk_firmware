@@ -97,13 +97,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_BACKLIGHT_DISABLE_HHKB_BLOCKER_LEDS 0
 
 // disable backlight when USB suspended (PC sleep/hibernate/shutdown)
-#define RGB_BACKLIGHT_DISABLE_WHEN_USB_SUSPENDED 0
+#define RGB_BACKLIGHT_DISABLE_WHEN_USB_SUSPENDED 1
 
 // disable backlight after timeout in minutes, 0 = no timeout
-#define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 0
+#define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 5
 
 // the default effect (RGB test)
-#define RGB_BACKLIGHT_EFFECT 255
+#define RGB_BACKLIGHT_EFFECT 1
 
 #define DRIVER_COUNT 2
 #define DRIVER_LED_TOTAL 64
@@ -130,7 +130,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Backlight config starts after EEPROM version
 #define RGB_BACKLIGHT_CONFIG_EEPROM_ADDR 35
-// Dynamic keymap starts after backlight config (35+32)
+// Dynamic keymap starts after backlight config (35+31)
 #define DYNAMIC_KEYMAP_EEPROM_ADDR 67
 #define DYNAMIC_KEYMAP_LAYER_COUNT 4
 // Dynamic macro starts after dynamic keymaps (67+(4*5*14*2)) = (67+560)
