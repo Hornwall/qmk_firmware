@@ -106,13 +106,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_BACKLIGHT_DISABLE_WHEN_USB_SUSPENDED 0
 
 // disable backlight after timeout in minutes, 0 = no timeout
-#define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 0
+#define RGB_BACKLIGHT_DISABLE_AFTER_TIMEOUT 5
 
 // the default brightness
 #define RGB_BACKLIGHT_BRIGHTNESS 255
 
 // the default effect (RGB test)
-#define RGB_BACKLIGHT_EFFECT 6
+#define RGB_BACKLIGHT_EFFECT 1
 
 // the default effect speed (0-3)
 #define RGB_BACKLIGHT_EFFECT_SPEED 0
